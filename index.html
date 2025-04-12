@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Report</h1>
+        
+        <div>
+            <label for="location-input">Enter Location:</label>
+            <input type="text" id="location-input" placeholder="City Name">
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+        <div id="weather-details" class="weather-details" style="display:none;">
+            <div>Temperature: <span id="temperature"></span>°C</div>
+            <div>High: <span id="high"></span>°C</div>
+            <div>Low: <span id="low"></span>°C</div>
+            <div>Humidity: <span id="humidity"></span>%</div>
+            <div>Wind: <span id="wind"></span> km/h</div>
+            <div>Precipitation: <span id="precipitation"></span> mm</div>
+            <div>Pressure: <span id="pressure"></span> hPa</div>
+            <div>Conditions: <span id="conditions"></span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
